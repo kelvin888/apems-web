@@ -3,6 +3,10 @@
 @import "./fonts";
 @import "./apems";
 
+*{
+  box-sizing: border-box;
+}
+
 button:focus {
   outline: none;
 }

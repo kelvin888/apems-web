@@ -1,6 +1,7 @@
 import React from "react";
 import { Header } from "../../components/Header";
-import {Footer} from '../../components/Footer';
+import BottomLayer from "../../components/LandingSections/BottomLayer";
+import TopLayer from "../../components/LandingSections/TopLayer";
 import "./Landing.scss";
 
 export const Landing = () => {
@@ -8,7 +9,8 @@ export const Landing = () => {
   return (
     <div className="landing-container">
       <Header />
-      <Footer />
+      <BottomLayer />
+      <TopLayer />
     </div>
   );
 };

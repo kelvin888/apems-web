@@ -1,0 +1,61 @@
+.footer-container{
+    background-color: var(--black);
+    display: grid;
+    gap:2rem;
+    grid-template-areas: 'logo address connect help-center partner';
+    grid-auto-columns: 20% 20% 15% 20% 20%;
+    padding: 2.8rem 6rem;
+    color:var(--white);
+    font-family: ttNorms;
+
+    .title-text{
+        color: var(--white);
+
+    }
+    .content-text{
+        color: var(--redgrey);
+    }
+
+  
+
+    & .footer-logo{
+        grid-area: logo;
+
+        & .owner{
+            display: flex;
+            align-items: center;
+            gap: .6rem;
+            border-top: solid 1px var(--redgrey);
+            width: fit-content;
+            margin-top: 1.5rem;
+            padding-top: .5rem;
+            font-weight: normal;
+        }
+    }
+
+    & .footer-address{
+        grid-area: address;
+    }
+
+    & .footer-connect{
+        grid-area: connect;
+    }
+
+    & .footer-help-center{
+        grid-area: help-center;
+    }
+
+    & .footer-partner{
+        grid-area: partner;
+    }
+}
+
+.footer-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li:not(:last-child) {
+        padding-bottom: 1.5rem;
+    }
+}

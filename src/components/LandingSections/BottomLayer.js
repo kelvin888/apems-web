@@ -10,6 +10,8 @@ const BottomLayer = () => {
             <h1 className="header-text">
               Remain <span className="text-red">connected</span> <br /> wherever you go.
             </h1>
+
+            <span style={{width: '3rem', borderBottom: '1px solid red'}}></span>
           </div>
           <p className='text-body'>
             Virtual event experience is so much more than just a live video.

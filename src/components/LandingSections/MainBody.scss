@@ -1,0 +1,69 @@
+@import "../../assets/styles/index.scss";
+
+.main-container {
+  padding: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .text-label {
+    color: var(--pinkred);
+    border-radius: 0.5rem;
+    background-color: var(--pink);
+    width: 15rem;
+    // text-align: center;
+    padding: 0.5rem 0rem;
+    border: none;
+    outline: none;
+  }
+  .three-way-solution {
+    width: 60%;
+    text-align: center;
+    h1 {
+      font-family: "gilroy";
+      font-weight: bold;
+      font-size: 3rem;
+    }
+    p {
+      line-height: 1.8rem;
+      font-family: "poppins";
+      font-weight: normal;
+      color: var(--textgrey);
+    }
+  }
+
+  .image-and-text{
+      width: 100%;
+      display: flex;
+      .image-container{
+        width: 50%;
+        img{
+            width: 80%;
+        }
+      }
+      .text-container{
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          p{
+            line-height: 1.8rem;
+            font-family: "poppins";
+            font-weight: normal;
+            color: var(--textgrey); 
+            width: 70%;
+          }
+      }
+  }
+
+  .mb-1{
+      margin-bottom: 1rem
+  }
+
+  .checkmark{
+      background-color: var(--pinkred);
+      color: var(--white);
+      padding: 0.1rem 0.25rem;
+      border-radius: 50%;
+      font-size: 0.8rem;
+  }
+}

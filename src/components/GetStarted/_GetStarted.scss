@@ -1,0 +1,58 @@
+.get-started {
+  background-image: url("../../assets/img/Group-5821.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10rem 0 5rem 0;
+  display: flex;
+  justify-content: center;
+  .get-started-container {
+    text-align: center;
+    margin: auto;
+    .form-container {
+      height: 5rem;
+      background-color: $white;
+      border: 1px solid $pinkred;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0 0.1rem;
+      font-family: "gilroy";
+      font-weight: normal;
+      margin-top: 3rem;
+      input {
+        height: 4.5rem;
+        padding: 1rem;
+        border: none;
+        outline: none;
+        flex-grow: 2;
+        background-color: transparent;
+        &:focus {
+          border: none;
+          outline: none;
+        }
+      }
+      button {
+        height: 4.5rem;
+        background-color: $pinkred;
+        color: $white;
+        border: none;
+        padding: 0 1rem;
+      }
+    }
+  }
+
+  .header-text {
+    font-family: "gilroy";
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 0;
+    color: $white;
+  }
+
+  .text-body {
+    line-height: 1.7rem;
+    font-family: "poppins";
+    font-weight: normal;
+    color: $white !important;
+  }
+}

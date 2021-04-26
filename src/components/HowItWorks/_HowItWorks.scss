@@ -1,0 +1,36 @@
+.how-it-works {
+  background-color: $darkgrey;
+  color: $white;
+  padding: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "gilroy";
+
+  .header-banner {
+    width: 100%;
+    text-align: center;
+    h1 {
+      font-weight: bolder;
+      font-size: 3rem;
+    }
+    p {
+      font-weight: normal;
+      line-height: 1.7rem;
+    }
+  }
+  .steps {
+    // display: ;
+    .step {
+      padding: 2rem;
+      text-align: center;
+      h1 {
+        font-weight: bold;
+      }
+      p {
+        font-weight: normal;
+        line-height: 1.7rem;
+      }
+    }
+  }
+}

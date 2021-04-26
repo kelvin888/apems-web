@@ -1,12 +1,20 @@
-@import "./_normalize.scss";
-@import "./variables";
-@import "./fonts";
-@import "./apems";
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Livvic:wght@400;500;600;700&display=swap");
 
-*{
-  box-sizing: border-box;
-}
+@import "variables";
+@import "bootstrap-custom";
+@import "components";
+@import "general";
+@import "helper";
+@import "menu";
+@import "home";
+@import "features";
+@import "footer";
 
-button:focus {
-  outline: none;
-}
+//components
+@import "../../components/ThreeWay/ThreeWay";
+@import "../../components/HowItWorks/HowItWorks";
+@import "../../components/GetStarted/GetStarted";
+@import "../../components/Footer/Footer";
+@import "../../components/RemainConnected/RemainConnected";
+@import "../../components/Navbar/Navbar";

@@ -1,0 +1,55 @@
+.footer-container {
+  background-color: $black;
+  color: $white;
+  font-family: ttNorms;
+  padding: 4rem;
+
+  .title-text {
+    color: $white;
+  }
+  .content-text {
+    color: $redgrey;
+    font-size: 13px;
+  }
+
+  & .footer-logo {
+    grid-area: logo;
+
+    & .owner {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      border-top: solid 1px $redgrey;
+      width: fit-content;
+      margin-top: 1.5rem;
+      padding-top: 0.5rem;
+      font-weight: normal;
+    }
+  }
+
+  & .footer-address {
+    grid-area: address;
+  }
+
+  & .footer-connect {
+    grid-area: connect;
+  }
+
+  & .footer-help-center {
+    grid-area: help-center;
+  }
+
+  & .footer-partner {
+    grid-area: partner;
+  }
+}
+
+.footer-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  li:not(:last-child) {
+    padding-bottom: 1.5rem;
+  }
+}

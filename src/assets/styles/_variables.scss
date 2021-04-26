@@ -1,21 +1,101 @@
-:root {
-  --white: #ffffff;
-  --magnolia: #f8f7fa;
-  --deepgrey: #dedee0;
-  --Gray95: #f2f2f2;
-  --grey: #f5f7f8;
+//
+// variables.scss
+//
 
-  --cinnabar: #ef3125;
-  --pinkred: #d90b2c;
-  --pink: #EF312514;
-  --lightred: #ff4040;
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Livvic:wght@400;500;600;700&display=swap");
+// Color
+$white: #ffffff;
 
-  --green: #09974d;
+$primary: #ef3125; //ef3125
+$secondary: #5a6d90;
+$success: #2eca8b;
+$warning: #f17425;
+$info: #17a2b8;
+$danger: #e43f52;
+$dark: #3c4858;
+$black: #161c2d;
+$muted: #8492a6;
+$light: #f8f9fc;
 
-  --black: #030111;
-  --navyblue: #5f649c;
+//apems
+$magnolia: #f8f7fa;
+$deepgrey: #dedee0;
+$Gray95: #f2f2f2;
+$grey: #f5f7f8;
+$cinnabar: #ef3125;
+$pinkred: #d90b2c;
+$pink: #ef312514;
+$lightred: #ff4040;
+$green: #09974d;
+$black: #030111;
+$navyblue: #5f649c;
+$redgrey: #707070;
+$textgrey: #5c6574;
+$darkgrey: #111112;
 
-  --redgrey: #707070;
-  --textgrey: #5c6574;
-  --darkgrey: #111112;
-}
+// Gray
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+
+// Overlay
+$overlay: rgba($dark, 0.7);
+$bg-overlay-white: rgba($white, 0.5);
+
+//Body Background
+$shadow: 0 0 3px rgba($dark, 0.15);
+$shadow-md: 0 5px 13px rgba($dark, 0.2);
+$shadow-lg: 0 10px 25px rgba($dark, 0.15);
+$footer: lighten($black, 6%);
+
+// Base font
+$font-size-base: 16px;
+
+$font-family-base: "Nunito", sans-serif;
+$font-family-secondary: "Nunito", sans-serif;
+
+//Color Picker/Switcher
+$default: #ef3125;
+$green: #6dc77a;
+$red: #ef3125;
+$purple: #7952b3;
+$skyblue: #32c2ec;
+$skobleoff: #0f7173;
+$cyan: #00c9a7;
+$slateblue: #766df4;
+$yellow: #f7961c;
+
+$colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "warning": $warning,
+  "info": $info,
+  "danger": $danger,
+  "dark": $dark,
+  "muted": $muted,
+  "light": $light,
+  "blue": $primary,
+  "footer": $footer,
+);
+
+$heading-font-sizes: (
+  "h1": 42px,
+  "h2": 36px,
+  "h3": 30px,
+  "h4": 24px,
+  "h5": 20px,
+  "h6": 16px,
+);
+
+$display-font-sizes: (
+  "display-1": 80px,
+  "display-2": 72px,
+  "display-3": 64px,
+  "display-4": 56px,
+);

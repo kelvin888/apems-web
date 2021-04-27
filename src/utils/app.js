@@ -101,7 +101,7 @@ export function activateMenu() {
           parentOfParent.classList.add("active");
         }
       } else {
-        var parentOfParent = getClosest(
+        let parentOfParent = getClosest(
           matchingMenuItem,
           ".parent-parent-menu-item"
         );
@@ -113,20 +113,20 @@ export function activateMenu() {
   }
 }
 
-// Clickable Menu
-if (document.getElementById("navigation")) {
-  var elements = document
-    .getElementById("navigation")
-    .getElementsByTagName("a");
-  for (var i = 0, len = elements.length; i < len; i++) {
-    elements[i].onclick = function (elem) {
-      if (elem.target.getAttribute("href") === "javascript:void(0)") {
-        var submenu = elem.target.nextElementSibling.nextElementSibling;
-        submenu.classList.toggle("open");
-      }
-    };
-  }
-}
+// // Clickable Menu
+// if (document.getElementById("navigation")) {
+//   var elements = document
+//     .getElementById("navigation")
+//     .getElementsByTagName("a");
+//   for (var i = 0, len = elements.length; i < len; i++) {
+//     elements[i].onclick = function (elem) {
+//       if (elem.target.getAttribute("href") === "javascript:void(0)") {
+//         var submenu = elem.target.nextElementSibling.nextElementSibling;
+//         submenu.classList.toggle("open");
+//       }
+//     };
+//   }
+// }
 
 // Menu sticky
 export function windowScroll() {
@@ -191,8 +191,8 @@ export function topFunction() {
 
 // dd-menu
 var ddmenu = document.getElementsByClassName("dd-menu");
-for (var i = 0, len = ddmenu.length; i < len; i++) {
-  ddmenu[i].onclick = function (elem) {
+for (var it = 0, lent = ddmenu.length; it < lent; it++) {
+  ddmenu[it].onclick = function (elem) {
     elem.stopPropagation();
   };
 }

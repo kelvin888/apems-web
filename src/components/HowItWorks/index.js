@@ -17,7 +17,7 @@ export const HowItWorks = () => {
           </div>
           <div className="row steps">
             <div className="col-lg-4 step">
-              <img src={Message} />
+              <img src={Message} alt="message" />
               <h3>Step One</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -25,7 +25,7 @@ export const HowItWorks = () => {
               </p>
             </div>
             <div className="col-lg-4 step">
-              <img src={Options} />
+              <img src={Options} alt="options" />
               <h3>Step Two</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -33,7 +33,7 @@ export const HowItWorks = () => {
               </p>
             </div>
             <div className="col-lg-4 step">
-              <img src={Verified} />
+              <img src={Verified} alt="verified" />
               <h3>Step Three</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

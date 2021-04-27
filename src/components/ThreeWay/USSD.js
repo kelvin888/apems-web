@@ -15,7 +15,7 @@ export const USSD = () => {
             </div>
           </div>
           <div class="col-lg-7">
-            <img src={UssdImg} className="ussd-img" />
+            <img src={UssdImg} className="ussd-img" alt="ussd-img" />
           </div>
           <div className="col-lg-5">
             <div className="d-flex align-items-center h-100">

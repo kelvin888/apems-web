@@ -7,7 +7,7 @@ export const Hybrid = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <img src={HybridImg} className="w-100" />
+            <img src={HybridImg} className="w-100" alt="hybrid-img" />
           </div>
           <div className="col-lg-6">
             <div className="d-flex flex-column justify-content-center h-100">

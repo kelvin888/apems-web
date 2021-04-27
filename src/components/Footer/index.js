@@ -7,7 +7,7 @@ export const Footer = () => {
     <div className="footer-container">
       <div className="row">
         <div className="footer-logo col-lg-2 col-md-6 col-12 mb-3">
-          <img src={ApemsLogo} alt="" />
+          <img src={ApemsLogo} alt="apems-logo" />
           <div className="owner">
             By <img src={ApLogo} alt="ap-logo" />
             Africa Prudential

@@ -18,7 +18,7 @@ export const EVoting = () => {
         </div>
         <div className="col-lg-6">
           <div className="image-container">
-            <img src={Evoting} className="evoting-img" />
+            <img src={Evoting} className="evoting-img" alt="e-voting" />
           </div>
         </div>
       </div>

@@ -1,7 +1,6 @@
 import React from "react";
 import ApemsLogo from "../../assets/img/Apems full logo.png";
 import ApLogo from "../../assets/img/ap-logo.svg";
-import { DemoRequestInput } from "../UIKit/DemoRequestInput";
 
 export const Footer = () => {
   return (

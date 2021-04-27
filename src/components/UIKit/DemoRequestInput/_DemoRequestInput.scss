@@ -1,0 +1,36 @@
+.form-container {
+  height: 5rem;
+  background-color: $grey;
+  border: solid thin $pinkred;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "gilroy";
+  font-weight: normal;
+  border-radius: 4px;
+  padding: 0.2rem;
+  width: 30rem;
+
+  
+  input {
+    height: 4.5rem;
+    border: none;
+    padding: 1rem;
+    flex-grow: 2;
+    background-color: transparent;
+    &:focus {
+      border: none;
+      outline: none;
+    }
+  }
+  button {
+    height: 4.5rem;
+    background-color: $pinkred;
+    color: $white;
+    border: none;
+    padding: 0 1rem;
+  }
+}
+.gray-border {
+    border: solid thin $gray-500;
+}

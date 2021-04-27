@@ -1,6 +1,6 @@
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
-import { RemainConnected } from "./components/RemainConnected";
+import { StayConnected } from "./components/StayConnected";
 import { ThreeWay } from "./components/ThreeWay";
 import { HowItWorks } from "./components/HowItWorks";
 import { windowScroll } from "./utils/app";
@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <RemainConnected />
+      <StayConnected />
       <ThreeWay />
       <HowItWorks />
       <GetStarted />

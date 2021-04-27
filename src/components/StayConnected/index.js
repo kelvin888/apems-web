@@ -1,7 +1,8 @@
 import React from "react";
 import Call from "../../assets/img/vid/call.mp4";
+import { DemoRequestInput } from "../UIKit/DemoRequestInput";
 
-export const RemainConnected = () => {
+export const StayConnected = () => {
   return (
     <>
       <section class="section d-table w-100">
@@ -13,10 +14,10 @@ export const RemainConnected = () => {
             <div class="col-lg-7 col-12">
               <div className="remain-connected">
                 <div>
-                  <h2 className="header-text">
-                    Remain <span className="text-red">connected</span> <br />{" "}
-                    wherever you go.
-                  </h2>
+                  <h1 className="header-text">
+                    Stay <span className="text-red">connected</span> to your<br />
+                     event from wherever you are.
+                  </h1>
 
                   <span
                     style={{ width: "3rem", borderBottom: "1px solid red" }}
@@ -28,11 +29,9 @@ export const RemainConnected = () => {
                   where multiple sessions are running simultaneously and
                   attendees are interacting with your specified content.
                 </p>
-                <div>
-                  <form className="form-container">
-                    <input autofocus placeholder="Email address" />
-                    <button type="submit">Request for Demo</button>
-                  </form>
+                <div className="mt-4">
+                  <p className="text-body mb-0">Register your email and request for a demo</p>
+                 <DemoRequestInput borderType="gray" />
                 </div>
               </div>
             </div>

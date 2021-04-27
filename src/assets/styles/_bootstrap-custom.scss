@@ -1,12 +1,6 @@
 //
 // Bootstrap-custom.scss
 //
-.container {
-    @media (min-width: 1400px) {
-        max-width: 1140px !important;
-    }
-}
-
 .row > * {
     position: relative;
 }

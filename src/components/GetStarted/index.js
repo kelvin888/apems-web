@@ -1,4 +1,5 @@
 import React from "react";
+import { DemoRequestInput } from "../UIKit/DemoRequestInput";
 
 export const GetStarted = () => {
   return (
@@ -11,10 +12,7 @@ export const GetStarted = () => {
             more about the amazing features on Apems
           </div>
           <div>
-            <form className="form-container">
-              <input autofocus placeholder="Email address" />
-              <button type="submit">Request for Demo</button>
-            </form>
+           <DemoRequestInput borderType="pink" />
           </div>
         </div>
       </div>

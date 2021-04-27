@@ -1,0 +1,44 @@
+.remain-connected {
+  // padding: 8% 4% 0 8%;
+}
+.video-container {
+  position: relative;
+
+  .connected-video {
+    width: 100%;
+    height: 595px;
+    border: 6px solid $navyblue;
+    border-right: none;
+    border-radius: 5% 0 0 5%;
+    overflow: hidden;
+    padding: 1rem;
+    position: relative;
+    background-color: $black;
+
+    .apems-vid {
+      position: absolute;
+      height: 555px;
+    }
+  }
+}
+
+.header-text {
+  font-family: "gilroy";
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.text-red {
+  color: $cinnabar;
+  position: relative;
+  
+}
+
+.text-body {
+  line-height: 1.8rem;
+  font-family: "poppins";
+  font-weight: normal;
+  font-size: 14px;
+}
+
+

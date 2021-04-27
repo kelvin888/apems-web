@@ -22,8 +22,8 @@ export const USSD = () => {
               <div className="text-container">
                 <h2>USSD</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Dial the short code *4018*8# from anywhere, on any mobile
+                  device and accredit/vote instantly.
                 </p>
               </div>
             </div>

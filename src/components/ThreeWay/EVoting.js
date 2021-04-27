@@ -10,8 +10,7 @@ export const EVoting = () => {
             <div className="d-flex flex-column justify-content-center h-100">
               <h2>Electronic Voting</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Login and register online, vote, and ask questions in a meeting.
               </p>
             </div>
           </div>

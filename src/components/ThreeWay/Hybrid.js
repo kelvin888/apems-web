@@ -7,14 +7,14 @@ export const Hybrid = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <img src={HybridImg} className="w-100" alt="hybrid-img" />
+            <img src={HybridImg} className="hybrid-img" alt="hybrid-img" />
           </div>
           <div className="col-lg-6">
             <div className="d-flex flex-column justify-content-center h-100">
               <h2>Hybrid</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                A perfect mix of all channels, you have the choice to use all 3
+                channels to meet stakeholders’ need.
               </p>
               <button className="text-label mb-1">
                 <span className="checkmark">&#x2713;</span> Keypad Voting

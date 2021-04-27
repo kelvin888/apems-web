@@ -1,5 +1,5 @@
-.remain-connected {
-  // padding: 8% 4% 0 8%;
+#sticky-section {
+  position: fixed;
 }
 .video-container {
   position: relative;
@@ -31,7 +31,6 @@
 .text-red {
   color: $cinnabar;
   position: relative;
-  
 }
 
 .text-body {
@@ -40,5 +39,3 @@
   font-weight: normal;
   font-size: 14px;
 }
-
-

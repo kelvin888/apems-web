@@ -5,7 +5,7 @@ import Verified from "../../assets/img/verified.svg";
 
 export const HowItWorks = () => {
   return (
-    <section class="section p-0">
+    <section class="p-0">
       <div className="how-it-works">
         <div class="container">
           <div className="header-banner">
@@ -18,26 +18,26 @@ export const HowItWorks = () => {
           <div className="row steps">
             <div className="col-lg-4 step">
               <img src={Message} alt="message" />
-              <h3>Step One</h3>
+              <h6 className="my-4">Innovation</h6>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Meeting notices are sent on your behalf to stakeholders via SMS
+                and e-mails
               </p>
             </div>
             <div className="col-lg-4 step">
               <img src={Options} alt="options" />
-              <h3>Step Two</h3>
+              <h6 className="my-4">Proxy</h6>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Absent stakeholders are well-represented via proxies implemented
+                at least 48 hours to event.
               </p>
             </div>
             <div className="col-lg-4 step">
               <img src={Verified} alt="verified" />
-              <h3>Step Three</h3>
+              <h6 className="my-4">Attendance</h6>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Documents names and details of attendees/participants present,
+                physically and virtually
               </p>
             </div>
           </div>

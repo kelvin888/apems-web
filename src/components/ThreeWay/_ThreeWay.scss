@@ -19,7 +19,7 @@
 
   .ussd-img {
     float: right;
-    width: 30rem;
+    width: 25rem;
   }
 }
 
@@ -28,6 +28,10 @@
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: auto 10rem;
+
+  .hybrid-img {
+    width: 32rem;
+  }
 }
 
 .three-way-solution {
@@ -89,4 +93,14 @@
 .evoting-img {
   float: right;
   width: 30rem;
+}
+
+#scroll-over-section {
+  top: 52rem;
+  -webkit-box-shadow: 0px 5px 23px 55px #ca96961a;
+  box-shadow: 0px 5px 23px 55px #ca96961a;
+  -moz-box-shadow: 0px 5px 23px 55px #ca96961a;
+  background: $white;
+  opacity: 1;
+  position: relative;
 }

@@ -4,7 +4,7 @@ import { Button } from "../UIKit/Button";
 
 export const Navbar = () => {
   return (
-    <header id="topnav" class="defaultscroll sticky">
+    <header id="topnav" class=" sticky">
       <div class="container d-flex align-items-center justify-content-between ">
         <a class="logo" href="index.html">
           <img
@@ -20,7 +20,10 @@ export const Navbar = () => {
             alt="logo-light"
           />
         </a>
-        <div className="d-flex align-items-center" style={{ gap: "3rem" }}>
+        <div
+          className="align-items-center"
+          style={{ display: "grid", gridAutoFlow: "column", gap: "3rem" }}
+        >
           <span className="header--faq">Frequently Asked Questions</span>
           <Button>Sign In</Button>
         </div>

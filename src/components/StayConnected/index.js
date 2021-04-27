@@ -4,7 +4,7 @@ import { DemoRequestInput } from "../UIKit/DemoRequestInput";
 export const StayConnected = () => {
   return (
     <>
-      <section class="section d-table w-100">
+      <section class="section d-table pb-0 w-100" id="sticky-section">
         <div class="container">
           <div
             class="row mt-5 align-items-center position-relative"
@@ -24,14 +24,14 @@ export const StayConnected = () => {
                   ></span>
                 </div>
                 <p className="text-body">
-                  Virtual event experience is so much more than just a live
-                  video. That’s why you can build a full agenda on our platform,
-                  where multiple sessions are running simultaneously and
-                  attendees are interacting with your specified content.
+                  Experience so much more than just a live video from your
+                  virtual or hybrid meetings, start your event with seamless
+                  registration and accreditation of your participants, interact
+                  with your attendees and receive poll votes.
                 </p>
                 <div className="mt-4">
                   <p className="text-body mb-0">
-                    Register your email and request for a demo
+                    Register your email and request for a demo.
                   </p>
                   <DemoRequestInput borderType="gray" />
                 </div>

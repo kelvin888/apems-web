@@ -114,19 +114,19 @@ export function activateMenu() {
 }
 
 // // Clickable Menu
-// if (document.getElementById("navigation")) {
-//   var elements = document
-//     .getElementById("navigation")
-//     .getElementsByTagName("a");
-//   for (var i = 0, len = elements.length; i < len; i++) {
-//     elements[i].onclick = function (elem) {
-//       if (elem.target.getAttribute("href") === "javascript:void(0)") {
-//         var submenu = elem.target.nextElementSibling.nextElementSibling;
-//         submenu.classList.toggle("open");
-//       }
-//     };
-//   }
-// }
+if (document.getElementById("navigation")) {
+  var elements = document
+    .getElementById("navigation")
+    .getElementsByTagName("a");
+  for (var i = 0, len = elements.length; i < len; i++) {
+    elements[i].onclick = function (elem) {
+      if (elem.target.getAttribute("href") === "javascript:void(0)") {
+        var submenu = elem.target.nextElementSibling.nextElementSibling;
+        submenu.classList.toggle("open");
+      }
+    };
+  }
+}
 
 // Menu sticky
 export function windowScroll() {
@@ -143,9 +143,25 @@ export function windowScroll() {
   }
 }
 
+//  sticky section
+export function handleStickySection() {
+  const stickySection = document.getElementById("sticky-section");
+  if (stickySection != null) {
+    if (
+      document.body.scrollTop >= 200 ||
+      document.documentElement.scrollTop >= 200
+    ) {
+      stickySection.classList.add("push-to-front");
+    } else {
+      stickySection.classList.remove("push-to-front");
+    }
+  }
+}
+
 window.addEventListener("scroll", (ev) => {
   ev.preventDefault();
-  windowScroll();
+  // windowScroll();
+  // handleStickySection();
 });
 
 // back-to-top

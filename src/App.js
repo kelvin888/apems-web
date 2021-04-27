@@ -1,11 +1,8 @@
 import { Navbar } from "./components/Navbar";
-import { Footer } from "./components/Footer";
 import { StayConnected } from "./components/StayConnected";
 import { ThreeWay } from "./components/ThreeWay";
-import { HowItWorks } from "./components/HowItWorks";
 import { windowScroll } from "./utils/app";
 import { useEffect } from "react";
-import { GetStarted } from "./components/GetStarted";
 
 function App() {
   useEffect(() => {
@@ -25,9 +22,6 @@ function App() {
       <Navbar />
       <StayConnected />
       <ThreeWay />
-      <HowItWorks />
-      <GetStarted />
-      <Footer />
     </>
   );
 }

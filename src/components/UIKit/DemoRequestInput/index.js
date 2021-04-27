@@ -3,8 +3,12 @@ import PropTypes from "prop-types";
 
 export const DemoRequestInput = (props) => {
   return (
-    <form className={`form-container ${props.borderType === "gray"? 'gray-border': ''}`}>
-      <input autofocus placeholder="Email address" />
+    <form
+      className={`form-container ${
+        props.borderType === "gray" ? "gray-border" : ""
+      }`}
+    >
+      <input placeholder="Email address" />
       <button type="submit">Request for Demo</button>
     </form>
   );

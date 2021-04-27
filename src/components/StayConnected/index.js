@@ -1,5 +1,4 @@
 import React from "react";
-import Call from "../../assets/img/vid/call.mp4";
 import { DemoRequestInput } from "../UIKit/DemoRequestInput";
 
 export const StayConnected = () => {
@@ -15,8 +14,9 @@ export const StayConnected = () => {
               <div className="remain-connected">
                 <div>
                   <h1 className="header-text">
-                    Stay <span className="text-red">connected</span> to your<br />
-                     event from wherever you are.
+                    Stay <span className="text-red">connected</span> to your
+                    <br />
+                    event from wherever you are.
                   </h1>
 
                   <span
@@ -30,8 +30,10 @@ export const StayConnected = () => {
                   attendees are interacting with your specified content.
                 </p>
                 <div className="mt-4">
-                  <p className="text-body mb-0">Register your email and request for a demo</p>
-                 <DemoRequestInput borderType="gray" />
+                  <p className="text-body mb-0">
+                    Register your email and request for a demo
+                  </p>
+                  <DemoRequestInput borderType="gray" />
                 </div>
               </div>
             </div>
@@ -39,9 +41,15 @@ export const StayConnected = () => {
             <div class="col-lg-5 col-12">
               <div className="video-container">
                 <div className="connected-video">
-                  <video class="apems-vid rounded" controls loop>
-                    <source src={Call} type="video/mp4" />
-                  </video>
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/69U-EUeEYII"
+                    title="APEMS VIDEO"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
                 </div>
               </div>
             </div>
